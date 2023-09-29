@@ -10,24 +10,24 @@ SceZlib:
       syscall: false
       version: 1
       functions:
-        - adler32_z
+        # - adler32_z
         - adler32
         - adler32_combine
         - adler32_combine64
         - get_crc_table
-        - crc32_z
+        # - crc32_z
         - crc32
         - crc32_combine64
         - crc32_combine
-        - crc32_combine_gen64
-        - crc32_combine_gen
-        - crc32_combine_op
+        # - crc32_combine_gen64
+        # - crc32_combine_gen
+        # - crc32_combine_op
         - deflateSetDictionary
-        - deflateGetDictionary
-        - deflateResetKeep
+        # - deflateGetDictionary
+        # - deflateResetKeep
         - deflateReset
         - deflateSetHeader
-        - deflatePending
+        # - deflatePending
         - deflatePrime
         - deflateParams
         - deflateTune
@@ -37,12 +37,12 @@ SceZlib:
         - deflateInit2_
         - deflateInit_
         - deflateCopy
-        #- deflate_copyright
+        # - deflate_copyright
         # - inflateBackInit_
         # - inflateBack
         # - inflateBackEnd
         # - inflate_fast
-        - inflateResetKeep
+        # - inflateResetKeep
         - inflateReset
         - inflateReset2
         - inflateInit2_
@@ -50,16 +50,16 @@ SceZlib:
         - inflatePrime
         - inflate
         - inflateEnd
-        - inflateGetDictionary
+        # - inflateGetDictionary
         - inflateSetDictionary
         - inflateGetHeader
         - inflateSync
         - inflateSyncPoint
         - inflateCopy
         - inflateUndermine
-        - inflateValidate
+        # - inflateValidate
         - inflateMark
-        - inflateCodesUsed
+        # - inflateCodesUsed
         - inflate_table
         # - inflate_copyright
         # - _tr_init
@@ -79,7 +79,7 @@ SceZlib:
         - compress2
         - compress
         - compressBound
-        - uncompress2
+        # - uncompress2
         - uncompress
         # - gzclose
         # - gzopen

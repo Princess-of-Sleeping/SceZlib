@@ -18,8 +18,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions")
 enable_language(C ASM)
 
 ExternalProject_add(libz_download
-  URL https://zlib.net/zlib-1.2.13.tar.xz
-  URL_HASH SHA256=d14c38e313afc35a9a8760dadf26042f51ea0f5d154b0630a31da0540107fb98
+  URL https://www.zlib.net/fossils/zlib-1.2.5.tar.gz
+  URL_HASH SHA256=6064E52E513FACB0FBB7998C6413406CF253CFB986063D68F4771C2BF7A3F958
   DOWNLOAD_DIR ""
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
